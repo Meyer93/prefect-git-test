@@ -1,5 +1,8 @@
 import httpx
 from prefect import flow
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 @flow(log_prints=True)
